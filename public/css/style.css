@@ -2307,7 +2307,7 @@ fieldset[disabled] .btn-default {
 .btn-gray-transparent {
   color: #fff;
   background-color: #4B0082;
-  border-color: #777777;
+  border-color: #fff;
 }
 .btn-gray-transparent:hover,
 .btn-gray-transparent:focus,
