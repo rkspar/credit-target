@@ -774,6 +774,10 @@ tbody {
   background-color: #fff;
   color: #cdcdcd;
 }
+.dark-bg-2 {
+  background-color: #1f9123;
+  color: #cdcdcd;
+}
 .dark-bg + .dark-bg:not(.image-box):not(.full-image-container):not(.full-text-container):not(.full-width-section) {
   background-color: #555555;
 }
