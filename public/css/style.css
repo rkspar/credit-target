@@ -6760,8 +6760,8 @@ h6.media-heading {
   padding: 15px 0;
 }
 .plan ul li a.pt-popover {
-  color: #000;
-  border-bottom: 1px dashed #000;
+  color: #1f9123;
+  border-bottom: 1px #000;
   position: relative;
 }
 .plan ul li a.pt-popover:hover {
