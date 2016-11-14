@@ -202,11 +202,49 @@
 												
 												<!-- header buttons -->
 												<div class="header-dropdown-buttons">
-													<a href="https://beta.scoreceo.com/credittarget" class="btn btn-sm hidden-xs radius-50 btn-default">Sign In <i class="fa fa-sign-in pl-5"></i></a>
-													<a href="https://beta.scoreceo.com/credittarget" class="btn btn-lg visible-xs radius-50 btn-block btn-default">Sign In <i class="fa fa-sign-in pl-5"></i></a>
+													<a href="" class="btn btn-sm hidden-xs radius-50 btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">Sign In <i class="fa fa-sign-in pl-5"></i></a>
+													<a href="" class="btn btn-lg visible-xs radius-50 btn-block btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">Sign In <i class="fa fa-sign-in pl-5"></i></a>
 												</div>
 												<!-- header buttons end-->
-												
+												<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+											<h4 class="modal-title" id="mySmallModalLabel">Login to Your Account</h4>
+										</div>
+										<div class="modal-body">
+											<form action="https://www.creditstatusnow.com/default.aspx" method='POST'>
+     <table width="263" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial, Helvetica, sans-serif;">
+          <tr>
+               <td width="259" style="padding: 5px; line-height: 25px; font-size: 24px; background-color: #fff;TabChar(1) & color: #FFFFFF;">
+                    <img src="images/target.png"></td>
+          </tr>
+          <tr>
+               <td>
+                    <p>
+                         User Name:<br />
+                         <input type="text" name="username" id="username" style="font-size: 16px;" />
+                    </p>
+                    <p>
+                         Password:<br />
+                         <input type="password" name="password" id="password" style="font-size: 16px;" />
+                    </p>
+                    <p>
+                         <input type="submit" name="button" id="button" value="Submit" style="font-size: 16px;padding: 5px;" />
+                    </p>
+               </td>
+          </tr>
+     </table>
+</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+											
+										</div>
+									</div>
+								</div>
+							</div>
 											</div>
 
 										</div>
