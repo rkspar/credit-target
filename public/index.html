@@ -206,8 +206,8 @@
 												
 												<!-- header buttons -->
 												<div class="header-dropdown-buttons">
-													<a href="" class="btn btn-sm hidden-xs radius-50 btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">Sign In <i class="fa fa-sign-in pl-5"></i></a>
-													<a href="" class="btn btn-lg visible-xs radius-50 btn-block btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">Sign In <i class="fa fa-sign-in pl-5"></i></a>
+													<a href="https://beta.scoreceo.com/credittarget/" class="btn btn-sm hidden-xs radius-50 btn-default">Sign In <i class="fa fa-sign-in pl-5"></i></a>
+													<a href="https://beta.scoreceo.com/credittarget/" class="btn btn-lg visible-xs radius-50 btn-block btn-default">Sign In <i class="fa fa-sign-in pl-5"></i></a>
 												</div>
 												<!-- header buttons end-->
 												<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -688,33 +688,28 @@
 										Oops! Something went wrong please refresh the page and try again.
 									</div>
 									<div class="contact-form">
-										<form id="contact-form" class="margin-clear" role="form">
+									<form id='frmWebToLead' method='POST' action='https://beta.scoreceo.com/FormSnippet/SaveFormToLead'><table>
+										
 											<div class="form-group has-feedback">
-												<label for="name">First Name*</label>
-												<input type="text" class="form-control" id="name" name="first name" placeholder="">
-												<i class="fa fa-user form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback">
-												<label for="name"> Last Name*</label>
-												<input type="text" class="form-control" id="name" name="last name" placeholder="">
-												<i class="fa fa-user form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback">
-												<label for="email">Email*</label>
-												<input type="email" class="form-control" id="email" name="email" placeholder="">
-												<i class="fa fa-envelope form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback">
-												<label for="subject">Phone Number*</label>
-												<input type="number" class="form-control" id="number" name="number" placeholder="">
-												<i class="fa fa-phone form-control-feedback"></i>
-											</div>
-											
-											<input type="submit" value="Sign Up" class="submit-button btn btn-default">
-
-										</form>
-										<center><img data-animation-effect="fadeInUp" data-effect-delay="400" src="images/seal.jpg" width="180px"></center>
+											First Name*<input id='txtFirstName' type='text' name='txtFirstName'  class="form-control"><i class="fa fa-user form-control-feedback"></i>
+										</div>
+										<div class="form-group has-feedback">
+										Last Name*<input id='txtLastName' type='text' name='txtLastName'class="form-control"><i class="fa fa-user form-control-feedback"></i>
 									</div>
+									<div class="form-group has-feedback">
+										Email*<input id='txtEmail' type='text' name='txtEmail'class="form-control"><i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Phone Number*<input id='txtPhoneNo' type='text' name='txtPhoneNo' class="form-control"><i class="fa fa-phone form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Zip*<input id='txtPostalCode' type='text' name='txtPostalCode' class="form-control">
+												<i class="fa fa-home form-control-feedback"></i>
+									</div>
+										<tr><td>&nbsp;</td><td align='center'><input type='submit' name='btnSubmit' class="submit-button btn btn-default" value='Submit'/> <br/><input type='hidden' name='hfFormType' value='WebToLead'/> <br/><input type='hidden' name='hfFormId' value='177'/> <br/><input type='hidden' name='hfReturnUrl' value='http://www.creditarget.com'/> <br/><input type='hidden' value=''/> <br/><input type='hidden' id='hfReferralId' name='hfReferralId' value='7959'/></td></tr></table></form>
+
+								</div>
+									
 								</div>
 						</div>
 						<div id="about"class="col-md-6 col-md-pull-6">
@@ -999,7 +994,7 @@
 										<h2>Sign in to your dashboard</h2>
 									</div>
 									<div class="col-sm-4">
-										<p class="mt-10"><a data-toggle="modal" data-target=".bs-example-modal-sm" class="btn btn-animated radius-50 btn-lg btn-gray-transparent btn-hvr hvr-radial-out">Sign In<i class="fa fa-sign-in pl-20"></i></a></p>
+										<p class="mt-10"><a href="https://beta.scoreceo.com/credittarget/" class="btn btn-animated radius-50 btn-lg btn-gray-transparent btn-hvr hvr-radial-out">Sign In<i class="fa fa-sign-in pl-20"></i></a></p>
 									</div>
 								</div>
 							</div>
