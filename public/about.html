@@ -190,10 +190,20 @@
 
 													<!-- mega-menu start -->
 													<li><a href="index.html">Home</a></li>
-														<li><a href="#about">About</a></li>
-														<li><a href="#services">Services</a></li>
-														<li><a href="#pricing">My Target</a></li>
-														<li><a href="#footer">Contact</a></li>
+														<li><a href="about.html">About</a></li>
+														<li class="dropdown ">
+														<a class="dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
+														<ul class="dropdown-menu">
+															<li><a href="score-tips.html">Score Tips</a></li>
+															<li><a href="credit-coaching.html">Credit Coaching</a></li>
+															<li><a href="additional-services.html">Additional Services</a></li>
+															
+															
+														</ul>
+													</li>
+														<li><a href="credit-cards.html">Credit Cards</a></li>
+														<li><a href="loans.html">Loans</a></li>
+
 														<li><a href="faq.html">F.A.Q</a></li>
 													<!-- mega-menu end -->
 													<!-- mega-menu start -->
@@ -203,8 +213,8 @@
 												
 												<!-- header buttons -->
 												<div class="header-dropdown-buttons">
-													<a href="" class="btn btn-sm hidden-xs radius-50 btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">Sign In <i class="fa fa-sign-in pl-5"></i></a>
-													<a href="" class="btn btn-lg visible-xs radius-50 btn-block btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">Sign In <i class="fa fa-sign-in pl-5"></i></a>
+													<a href="https://beta.scoreceo.com/credittarget/" class="btn btn-sm hidden-xs radius-50 btn-default">Sign In <i class="fa fa-sign-in pl-5"></i></a>
+													<a href="https://beta.scoreceo.com/credittarget/" class="btn btn-lg visible-xs radius-50 btn-block btn-default">Sign In <i class="fa fa-sign-in pl-5"></i></a>
 												</div>
 												<!-- header buttons end-->
 												<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -298,40 +308,38 @@
 										Oops! Something went wrong please refresh the page and try again.
 									</div>
 									<div class="contact-form">
-										<form id="contact-form" class="margin-clear" role="form">
+									<form id='frmWebToLead' method='POST' action='https://beta.scoreceo.com/FormSnippet/SaveFormToLead'><table>
+										
 											<div class="form-group has-feedback">
-												<label for="name">First Name*</label>
-												<input type="text" class="form-control" id="name" name="first name" placeholder="">
-												<i class="fa fa-user form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback">
-												<label for="name"> Last Name*</label>
-												<input type="text" class="form-control" id="name" name="last name" placeholder="">
-												<i class="fa fa-user form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback">
-												<label for="email">Email*</label>
-												<input type="email" class="form-control" id="email" name="email" placeholder="">
-												<i class="fa fa-envelope form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback">
-												<label for="subject">Phone Number*</label>
-												<input type="number" class="form-control" id="number" name="number" placeholder="">
-												<i class="fa fa-phone form-control-feedback"></i>
-											</div>
-											
-											<input type="submit" value="Sign Up" class="submit-button btn btn-default">
-
-										</form>
+											First Name*<input id='txtFirstName' type='text' name='txtFirstName'  class="form-control"><i class="fa fa-user form-control-feedback"></i>
+										</div>
+										<div class="form-group has-feedback">
+										Last Name*<input id='txtLastName' type='text' name='txtLastName'class="form-control"><i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Email*<input id='txtEmail' type='text' name='txtEmail'class="form-control"><i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Phone Number*<input id='txtPhoneNo' type='text' name='txtPhoneNo' class="form-control"><i class="fa fa-phone form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										Zip Code*<input id='txtPostalCode' type='text' name='txtPostalCode' class="form-control">
+												<i class="fa fa-home form-control-feedback"></i>
+									</div>
+										<tr><td>&nbsp;</td><td align='center'><input type='submit' name='btnSubmit' class="submit-button btn btn-default" value='Submit'/> <input type='hidden' name='hfFormType' value='WebToLead'/> <input type='hidden' name='hfFormId' value='177'/> <input type='hidden' name='hfReturnUrl' value='http://www.creditarget.com'/> <input type='hidden' value=''/> <input type='hidden' id='hfReferralId' name='hfReferralId' value='7959'/></td></tr></table></form>
+									
+								
 										<center><img data-animation-effect="fadeInUp" data-effect-delay="400" src="images/seal.jpg" width="180px"></center>
 									</div>
+
 								</div>
 						</div>
 						<div id="about"class="col-md-6 col-md-pull-6">
 							<br>
 							<h3 class="title">We <span class="text-rotator text-default" data-rotator-animation-effect="lightSpeedIn">Build, Repair</span> Your Credit</h3>
 							<p>The mission of Credit Target is to take our clients by the hand and deliver <strong>first class credit repair</strong> and advanced credit repair tools to make our community more successful and profitable.</p> <p>We understand that credit repair can be an unsavory process that requires precision and patience. Getting <strong>on track with your personal finances</strong> is more achievable than ever with the right support and care that’s dedicated to developing a healthy relationship with a lifetime score improvement. Our staff has twenty five years of experience handling the full spectrum of credit and will only work exceptionally hard to check, challenge, and change your credit score. Adhering to our core values of open and honest communication is key from the moment we begin, and throughout the critical process of protecting you while meeting the obligations of credit bureaus to appropriate changes.</p> <p>Our vision to be a <strong>leading financial solutions</strong> provider through the power of numbers. Our community strives to be empowered and successful in <strong>increasing credit education and eliminating debt</strong>. We strive to guide you through the whole process to make significant, long-lasting lifestyle changes that can give you access to your <strong>financial dreams</strong> through credit repair that reflects you honestly.</p>
-							<center><img data-animation-effect="fadeInUp" data-effect-delay="400" src="images/transunion.png"></center>
+							<center><img data-animation-effect="fadeInUp" data-effect-delay="400" src="images/transunion.png"></center><br>
+							<center><img data-animation-effect="fadeInUp" data-effect-delay="400" src="images/ctlogo.png" width="300px"></center>
 						</div>
 					</div>
 
@@ -609,7 +617,7 @@
 										<h2>Sign in to your dashboard</h2>
 									</div>
 									<div class="col-sm-4">
-										<p class="mt-10"><a href="https://beta.scoreceo.com/credittarget" class="btn btn-animated radius-50 btn-lg btn-gray-transparent btn-hvr hvr-radial-out">Sign In<i class="fa fa-sign-in pl-20"></i></a></p>
+										<p class="mt-10"><a href="https://beta.scoreceo.com/credittarget/" class="btn btn-animated radius-50 btn-lg btn-gray-transparent btn-hvr hvr-radial-out">Sign In<i class="fa fa-sign-in pl-20"></i></a></p>
 									</div>
 								</div>
 							</div>
