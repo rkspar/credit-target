@@ -771,7 +771,7 @@ tbody {
   border-bottom: 1px solid #eaeaea;
 }
 .dark-bg {
-  background-color: #fff;
+  background-image: url("../images/red.png");
   color: #cdcdcd;
 }
 .dark-bg-2 {
